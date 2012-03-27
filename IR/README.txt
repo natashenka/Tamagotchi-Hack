@@ -1,0 +1,2 @@
+IR.pde -- Arduino code for IR that sends the first request repeatedly, and waits for a listening Tamagotchi
+IR2.pde -- Arduino code for IR that waits for the first request, and responds (Tamagotchi intiates interaction)
