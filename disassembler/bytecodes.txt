@@ -1,0 +1,63 @@
+ NO: SYNTAX 6502:  SYNTAX 2500:   6502 SUN b c type  addressing modes
+001: ADC #dd       ADC  A,dd       69H 56H 2 2 cpu3 ;          immediate
+002: ADC aa        ADC  A,(aa)     65H 17H 2 3 cpu3 ;          zero page
+003: AND #dd       AND  A,dd       29H 54H 2 2 cpu3 ;          immediate
+004: AND aa        AND  A,(aa)     25H 15H 2 3 cpu3 ;          zero page
+005: BCC ??        JR   NC,??      90H 28H 2 2 cpu3 ;           relative
+006: BCS ??        JR   C,??       B0H 38H 2 2 cpu3 ;           relative
+007: BEQ ??        JR   Z,??       F0H 3AH 2 2 cpu3 ;           relative
+008: BMI ??        JR   M,??       30H 18H 2 2 cpu3 ;           relative
+009: BNE ??        JR   NZ,??      D0H 2AH 2 2 cpu3 ;           relative
+010: BPL ??        JR   P,??       10H 08H 2 2 cpu3 ;           relative
+011: BRK           BRK             00H 00H 1 7 cpu3 ;            implied
+012: BVC ??        JR   NOV,??     50H 0AH 2 2 cpu3 ;           relative
+013: BVS ??        JR   OV,??      70H 1AH 2 2 cpu3 ;           relative
+014: CLC           CCF             18H 48H 1 2 cpu3 ;            implied
+015: CLI           EI              58H 4AH 1 2 cpu3 ;            implied
+016: CLV           CVF             B8H 78H 1 2 cpu3 ;            implied
+017: CMP #dd       CP   A,dd       C9H 66H 2 2 cpu3 ;          immediate
+018: CMP aa        CP   A,(aa)     C5H 27H 2 3 cpu3 ;          zero page
+019: CMP aa,X      CP   A,(aa+X)   D5H 2FH 2 4 cpu3 ;zero page indexed x
+020: CPX #dd       CP   X,dd       E0H 32H 2 2 cpu3 ;          immediate
+021: CPX aa        CP   X,(aa)     E4H 33H 2 3 cpu3 ;          zero page
+022: DEC aa        DEC  (aa)       C6H A3H 2 5 cpu3 ;          zero page
+023: DEX           DEC  X          CAH E2H 1 2 cpu3 ;            implied
+024: EOR #dd       XOR  A,dd       49H 46H 2 2 cpu3 ;          immediate
+025: EOR aa        XOR  A,(aa)     45H 07H 2 3 cpu3 ;          zero page
+026: INC aa        INC  (aa)       E6H B3H 2 5 cpu3 ;          zero page
+027: INX           INC  X          E8H 72H 1 2 cpu3 ;            implied
+028: JMP aaaa      JP   aaaa       4CH 43H 3 3 cpu3 ;           absolute
+029: JMP (aaaa)    JP   (aaaa)     6CH 53H 3 5 cpu3 ;   indirect absolut
+030: JSR aaaa      CALL aaaa       20H 10H 3 6 cpu3 ;           absolute
+031: LDA #dd       LD   A,dd       A9H 74H 2 2 cpu3 ;          immediate
+032: LDA aa        LD   A,(aa)     A5H 35H 2 3 cpu3 ;          zero page
+033: LDA aa,X      LD   A,(aa+X)   B5H 3DH 2 4 cpu3 ;zero page indexed x
+034: LDA aaaa      LD   A,(aaaa)   ADH 75H 3 4 cpu3 ;           absolute
+035: LDA aaaa,X    LD   A,(aaaa+X) BDH 7DH 3 4 cpu3 ;absolute  indexed x
+036: LDA (aa,X)    LD   A,((aa+X)) A1H 34H 2 6 cpu3 ; indexed indirect x
+037: LDX #dd       LD   X,dd       A2H B0H 2 2 cpu3 ;          immediate
+038: LDX aa        LD   X,(aa)     A6H B1H 2 3 cpu3 ;          zero page
+039: NOP           NOP             EAH F2H 1 2 cpu3 ;            implied
+040: ORA #dd       OR   A,dd       09H 44H 2 2 cpu3 ;          immediate
+041: ORA aa        OR   A,(aa)     05H 05H 2 3 cpu3 ;          zero page
+042: PHA           PUSH A          48H 42H 1 3 cpu3 ;            implied
+043: PHP           PUSH F          08H 40H 1 3 cpu3 ;            implied
+044: PLA           POP  A          68H 52H 1 4 cpu3 ;            implied
+045: PLP           POP  F          28H 50H 1 4 cpu3 ;            implied
+046: ROL A         ROL  A          2AH D0H 1 2 cpu3 ;        accumulator
+047: ROL aa        ROL  (aa)       26H 91H 2 5 cpu3 ;          zero page
+048: ROR A         ROR  A          6AH D2H 1 2 cpu3 ;        accumulator
+049: ROR aa        ROR  (aa)       66H 93H 2 5 cpu3 ;          zero page
+050: RTI           RETI            40H 02H 1 6 cpu3 ;            implied
+051: RTS           RET             60H 12H 1 6 cpu3 ;            implied
+052: SBC #dd       SBC  A,dd       E9H 76H 2 2 cpu3 ;          immediate
+053: SBC aa        SBC  A,(aa)     E5H 37H 2 3 cpu3 ;          zero page
+054: SEC           SCF             38H 58H 1 2 cpu3 ;            implied
+055: SEI           DI              78H 5AH 1 2 cpu3 ;            implied
+056: STA aa        LD   (aa),A     85H 25H 2 3 cpu3 ;          zero page
+057: STA aa,X      LD   (aa+X),A   95H 2DH 2 4 cpu3 ;zero page indexed x
+058: STA (aa,X)    LD   ((aa+X)),A 81H 24H 2 6 cpu3 ; indexed indirect x
+059: STX aa        LD   (aa),X     86H A1H 2 3 cpu3 ;          zero page
+060: STX aaaa      LD   (aaaa),X   8EH E1H 3 4 cpu3 ;           absolute
+061: TSX           LD   X,SP       BAH F8H 1 2 cpu3 ;            implied
+062: TXS           LD   SP,X       9AH E8H 1 2 cpu3 ;            implied

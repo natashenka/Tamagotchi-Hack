@@ -1,0 +1,14 @@
+Very rudimentary script to detect and disassemble GeneralPlus (SunPlus) bytecode in a binary
+
+Decodes 'standard'(according to GeneralPlus) and 'SunPlus' 6502 bytecode
+
+bytecode*.txt -- bytecode listings used for disassembly, can be changed in script
+
+	bytecode.txt -- default SunPlus bytecode
+	bytecodes.txt -- shrinkage mode
+	bytecoder.txt -- reduce mode
+	bytecoden.txt -- normal mode
+
+dissa.py -- the script
+
+testbinary.bin -- test binary, compiled using FortisIDE
