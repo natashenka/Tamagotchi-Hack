@@ -2,7 +2,12 @@ Repository for Tamagotchi hacking code!
 
 Directories:
 
+	/demos/ - Discovery board demos
+	/dissasembler/ - GeneralPlus binary dissasembler
 	/figure/ - Dumps and code from Tamagotchi figures
+	/figure-simulator/ - Chipkit Uno figure simulator
+	/figure-simulator-discovery/ - STM32F4 Discovery board figure simulator
+	/imageformats/ - Tamagotchi image format converters
 	/IR/ - IR code
 
 Questions? Comments? Contributions? 
