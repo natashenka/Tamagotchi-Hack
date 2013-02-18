@@ -1,0 +1,6 @@
+Figure code
+
+/Arduino -- Arduino code to dump and write memory
+/ROMDump -- Actual ROM dumps
+/scripts -- Misc scripts
+/SignalPulls -- Code to determine when a figure is read

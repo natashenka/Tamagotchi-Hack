@@ -1,3 +1,7 @@
-ROM dump is from a Memetchi figure
+ROM dumps
 
-/imgs/ - images extracted from the dump
+/imgs/ - images extracted from the Memetchi figure dump
+/makikoimgs/ - images extracted from a Makiko figure dump
+	- adds.txt contains addresses of images in figure dump
+/ROMDump - Memetchi figure dump
+/maikio - Makiko figure dump

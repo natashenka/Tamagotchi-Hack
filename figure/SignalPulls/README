@@ -1,0 +1,7 @@
+Signal Pulls
+
+empire.txt -- Reads when doing USA tour (the NY tour version)
+signaldecode.py -- takes signal analyzer dump, and converts it to list of read addresses
+usatour.txt -- Reads when doing USA tour(Washington DC version)
+usatourbuy.txt -- Reads when buying USA tour
+

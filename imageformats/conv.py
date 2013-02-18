@@ -1,4 +1,4 @@
-f = open("Untitled.bmp")
+f = open("../documents/gagnam.bmp")
 p = f.read()
 s = ""
 tmp = 0
@@ -6,17 +6,17 @@ rol = 0
 
 import Image
 
-im = Image.open("Untitled.bmp")
+im = Image.open("../documents/item.bmp")
 
 def tofourbit(a):
 	#print a
-	if ((a > -1) and (a < 5)):
+	if ((a > -1) and (a < 1)):
+		return 3;
+	if ((a > 0) and (a < 8)):
 		return 2;
-	if ((a > 4) and (a < 8)):
-		return 2;
-	if ((a > 7) and (a < 12 )):
+	if ((a > 7) and (a < 10 )):
 		return 1;
-	if (a > 11):
+	if (a > 9):
 		return 0;
 
 def conv(a):
@@ -26,8 +26,9 @@ def conv(a):
 	t = t | (tofourbit((ord(a) & 0xf0) >> 4))
 	return t
 i = 0
-width = 48
-while ( i < (width * 32) ):
+width = im.size[0]
+height = im.size[1]
+while ( i < (width * height) ):
 	tmp = 0;
 	#print "start"
 	#if( (i + 1)% 17) == 0:
@@ -47,11 +48,10 @@ while ( i < (width * 32) ):
 			#print tmp
 			
 
-	print tmp
+	#print tmp
 	s = s + chr(tmp)
 	
-
-for i in range(0, len(s)):
-
-	print "0x%x, " % ord(s[i]),
+f = open("pic.txt", 'wb')
+f.write(s)
+print len(s)
 

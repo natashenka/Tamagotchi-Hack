@@ -1,21 +1,24 @@
 import Image
 
-f = open("e.txt", 'rb')
+f = open("../ROMDump/makiko", 'rb')
 
 a = f.read()
 s = ""
 #offset = 0x201292
 #offset = 0x257010
 #offset = 0x2AB139
-offset = 0x301292
+offset = 0
 
 a = a[offset:]
 
 num = 0
-o = 0
+o =  0xade
 
 while True:
 	width = ord(a[o])
+	#//while (width == 0):
+	#//	o = o + 1
+	#//	width = ord(a[o])
 	height = ord(a[o+1])
 	print width,
 	print height
@@ -24,7 +27,7 @@ while True:
 		print "end"
 		print o + offset
 		break
-
+	extra = 0
 	if( height > 0x60):
 		print "end"
 		print o + offset
@@ -32,6 +35,9 @@ while True:
 	if ((width) % 4 != 0):
 		while ((width) % 4 != 0):
 			width = width + 1
+	if ((height) % 4 != 0):
+		#for t in range(0, (height) % 4):
+		#height  = height + 1
 
 		print "Padded to " + str(width) + " by " + str(height)
 	s = ""
@@ -51,7 +57,7 @@ while True:
         "L", (width, height), s, "raw", 
         "L"
         )
-	print o + offset
-	image.save("./imgs/im-10-" + str(num) + ".bmp")
+	print "img " + str(num) + " at " + str(o)
+	image.save("../ROMDump/m/im-" + str(num) + ".bmp")
 	num = num + 1
 
