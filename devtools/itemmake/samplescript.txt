@@ -1,0 +1,1691 @@
+SOUND MULTIPLIER:
+
+2
+
+IMAGE TABLE:
+
+C:\Users\Natalie\Pictures\madworld\mad.bmp
+C:\Users\Natalie\Pictures\madworld\madi.bmp
+C:\Users\Natalie\Pictures\madworld\title.bmp
+C:\Users\Natalie\Pictures\madworld\tree1.bmp
+C:\Users\Natalie\Pictures\madworld\tree2.bmp
+C:\Users\Natalie\Pictures\madworld\tree3.bmp
+C:\Users\Natalie\Pictures\madworld\treeg1.bmp
+C:\Users\Natalie\Pictures\madworld\treeg2.bmp
+C:\Users\Natalie\Pictures\madworld\treeg3.bmp
+C:\Users\Natalie\Pictures\madworld\windowsit1.bmp
+C:\Users\Natalie\Pictures\madworld\windowsit2.bmp
+C:\Users\Natalie\Pictures\madworld\windowsit3.bmp
+C:\Users\Natalie\Pictures\madworld\windowclose.bmp
+C:\Users\Natalie\Pictures\madworld\windowclose2.bmp
+C:\Users\Natalie\Pictures\madworld\win1.bmp
+C:\Users\Natalie\Pictures\madworld\win0.bmp
+C:\Users\Natalie\Pictures\madworld\winvc2.bmp
+C:\Users\Natalie\Pictures\madworld\winvc.bmp
+C:\Users\Natalie\Pictures\madworld\hands2.bmp
+C:\Users\Natalie\Pictures\madworld\hands.bmp
+C:\Users\Natalie\Pictures\madworld\treewin2.bmp
+C:\Users\Natalie\Pictures\madworld\treewin.bmp
+C:\Users\Natalie\Pictures\madworld\candle1.bmp
+C:\Users\Natalie\Pictures\madworld\candle2.bmp
+C:\Users\Natalie\Pictures\madworld\candle3.bmp
+C:\Users\Natalie\Pictures\madworld\bday.bmp
+C:\Users\Natalie\Pictures\madworld\bday2.bmp
+C:\Users\Natalie\Pictures\madworld\wd6.bmp
+C:\Users\Natalie\Pictures\madworld\wd1.bmp
+C:\Users\Natalie\Pictures\madworld\wd2.bmp
+C:\Users\Natalie\Pictures\madworld\wd3.bmp
+C:\Users\Natalie\Pictures\madworld\wd4.bmp
+C:\Users\Natalie\Pictures\madworld\wd5.bmp
+C:\Users\Natalie\Pictures\madworld\ball2.bmp
+C:\Users\Natalie\Pictures\madworld\d1.bmp
+C:\Users\Natalie\Pictures\madworld\d2.bmp
+C:\Users\Natalie\Pictures\madworld\d3.bmp
+C:\Users\Natalie\Pictures\madworld\d4.bmp
+C:\Users\Natalie\Pictures\madworld\ball.bmp
+
+IMAGE:
+
+title 0x70
+
+IMAGE:
+
+tree3 0x20
+
+IMAGE:
+
+tree2 0x20
+
+IMAGE:
+
+tree1 0x30
+
+IMAGE:
+
+windowsit1 0x20
+
+IMAGE:
+
+windowsit2 0x20
+
+IMAGE:
+
+windowsit3 0x30
+
+IMAGE:
+
+treeg1 0x20
+
+IMAGE:
+
+treeg2 0x20
+
+IMAGE:
+
+treeg3 0x30
+
+#rif 1 4 repeat start
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose2 D 1
+
+NOTE:
+
+windowclose F 1
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose2 D 1
+
+
+NOTE:
+
+windowclose A 1
+
+NOTE:
+
+windowclose2 A 2
+
+NOTE:
+
+windowclose A 2
+
+NOTE:
+
+windowclose2 F 3
+
+NOTE:
+
+windowclose G 1
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 E 3
+
+NOTE:
+
+windowclose G 1
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose2 E 1
+
+NOTE:
+
+windowclose2 D 3
+
+NOTE:
+
+win0 D 1
+
+NOTE:
+
+win1 D 1
+
+NOTE:
+
+win0 F 1
+
+NOTE:
+
+win1 F 1
+
+NOTE:
+
+win0 D 1
+
+NOTE:
+
+win1 D 1
+
+NOTE:
+
+win0 A 1
+
+NOTE:
+
+win1 A 2
+
+NOTE:
+
+win0 A 2
+
+NOTE:
+
+win1 F 3
+
+NOTE:
+
+win0 G 1
+
+NOTE:
+
+win1 G 2
+
+NOTE:
+
+win0 G 2
+
+NOTE:
+
+win1 E 3
+
+NOTE:
+
+win0 G 1
+
+NOTE:
+
+win1 G 2
+
+NOTE:
+
+win0 G 2
+
+NOTE:
+
+win1 F 1
+
+NOTE:
+
+win0 E 1
+
+NOTE:
+
+win1 D 3
+
+NOTE:
+
+winvc D 1
+
+NOTE:
+
+winvc2 D 1
+
+NOTE:
+
+winvc F 1
+
+NOTE:
+
+winvc2 F 1
+
+NOTE:
+
+winvc D 1
+
+NOTE:
+
+winvc2 D 1
+
+NOTE:
+
+winvc A 1
+
+NOTE:
+
+winvc2 A 2
+
+NOTE:
+
+winvc A 2
+
+NOTE:
+
+winvc2 F 3
+
+NOTE:
+
+winvc G 1
+
+NOTE:
+
+winvc2 G 2
+
+NOTE:
+
+winvc G 2
+
+NOTE:
+
+winvc2 E 3
+
+NOTE:
+
+winvc G 1
+
+NOTE:
+
+winvc2 G 2
+
+NOTE:
+
+winvc G 2
+
+NOTE:
+
+winvc2 F 1
+
+NOTE:
+
+winvc E 1
+
+NOTE:
+
+winvc2 D 3
+
+NOTE:
+
+win0 D 1
+
+NOTE:
+
+win1 D 1
+
+NOTE:
+
+win0 F 1
+
+NOTE:
+
+win1 F 1
+
+NOTE:
+
+win0 D 1
+
+NOTE:
+
+win1 D 1
+
+NOTE:
+
+win0 A 1
+
+NOTE:
+
+win1 A 2
+
+NOTE:
+
+win0 A 2
+
+NOTE:
+
+win1 F 3
+
+NOTE:
+
+win0 G 1
+
+NOTE:
+
+win1 G 2
+
+NOTE:
+
+win0 G 2
+
+NOTE:
+
+win1 E 3
+
+NOTE:
+
+win0 G 1
+
+NOTE:
+
+win1 G 2
+
+NOTE:
+
+win0 G 2
+
+NOTE:
+
+win1 F 1
+
+NOTE:
+
+win0 E 1
+
+NOTE:
+
+win1 D 3
+
+#rif 1 4 repeat end
+
+NOTE:
+
+hands2 D 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+IMAGE:
+
+hands 6
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+#begin
+
+IMAGE:
+
+hands2 6
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 D 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+IMAGE:
+
+hands 6
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+begin
+
+IMAGE:
+
+hands2 6
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+#mad world start
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+treewin F 5
+
+NOTE:
+
+treewin2 D 7
+
+IMAGE:
+
+treewin2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+treewin F 5
+
+NOTE:
+
+treewin2 D 7
+
+IMAGE:
+
+treewin2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+#begin part 2
+
+#rif 1 4 repeat start
+
+NOTE:
+
+candle1 D 1
+
+NOTE:
+
+candle1 D 1
+
+NOTE:
+
+candle1 F 1
+
+NOTE:
+
+candle1 F 1
+
+NOTE:
+
+candle2 D 1
+
+NOTE:
+
+candle2 D 1
+
+
+NOTE:
+
+candle2 A 1
+
+NOTE:
+
+candle2 A 2
+
+NOTE:
+
+candle3 A 2
+
+NOTE:
+
+candle3 F 3
+
+NOTE:
+
+candle3 G 1
+
+NOTE:
+
+candle3 G 2
+
+NOTE:
+
+bday G 2
+
+NOTE:
+
+bday E 3
+
+NOTE:
+
+bday G 1
+
+NOTE:
+
+bday G 2
+
+NOTE:
+
+bday2 G 2
+
+NOTE:
+
+bday2 F 1
+
+NOTE:
+
+bday2 E 1
+
+NOTE:
+
+bday2 D 3
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose2 D 1
+
+NOTE:
+
+windowclose F 1
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose2 A 1
+
+NOTE:
+
+windowclose A 2
+
+NOTE:
+
+windowclose2 A 2
+
+NOTE:
+
+windowclose F 3
+
+NOTE:
+
+windowclose2 G 1
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose E 3
+
+NOTE:
+
+windowclose G 1
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose E 1
+
+NOTE:
+
+windowclose2 D 3
+
+NOTE:
+
+winvc D 1
+
+NOTE:
+
+winvc2 D 1
+
+NOTE:
+
+winvc F 1
+
+NOTE:
+
+winvc2 F 1
+
+NOTE:
+
+winvc D 1
+
+NOTE:
+
+winvc2 D 1
+
+NOTE:
+
+winvc A 1
+
+NOTE:
+
+winvc2 A 2
+
+NOTE:
+
+winvc A 2
+
+NOTE:
+
+winvc2 F 3
+
+NOTE:
+
+winvc G 1
+
+NOTE:
+
+winvc2 G 2
+
+NOTE:
+
+winvc G 2
+
+NOTE:
+
+winvc2 E 3
+
+NOTE:
+
+winvc G 1
+
+NOTE:
+
+winvc2 G 2
+
+NOTE:
+
+winvc G 2
+
+NOTE:
+
+winvc2 F 1
+
+NOTE:
+
+winvc E 1
+
+NOTE:
+
+winvc2 D 3
+
+NOTE:
+
+windowclose2 D 1
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose F 1
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose D 1
+
+NOTE:
+
+windowclose2 D 1
+
+NOTE:
+
+windowclose A 1
+
+NOTE:
+
+windowclose2 A 2
+
+NOTE:
+
+windowclose A 2
+
+NOTE:
+
+windowclose2 F 3
+
+NOTE:
+
+windowclose G 1
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 E 3
+
+NOTE:
+
+windowclose G 1
+
+NOTE:
+
+windowclose2 G 2
+
+NOTE:
+
+windowclose G 2
+
+NOTE:
+
+windowclose2 F 1
+
+NOTE:
+
+windowclose E 1
+
+NOTE:
+
+windowclose2 D 3
+
+#rif 1 4 repeat end
+
+NOTE:
+
+wd1 D 1
+
+NOTE:
+
+wd2 D 1
+
+NOTE:
+
+wd3 F 1
+
+NOTE:
+
+wd4 F 1
+
+NOTE:
+
+wd5 A 1
+
+NOTE:
+
+wd6 A 1
+
+NOTE:
+
+wd1 B 1
+
+NOTE:
+
+wd2 G 1
+
+IMAGE:
+
+wd3 6
+
+NOTE:
+
+wd4 G 1
+
+NOTE:
+
+wd5 B 1
+
+NOTE:
+
+wd6 B 1
+
+NOTE:
+
+wd1 G 1
+
+NOTE:
+
+wd2 G 1
+
+NOTE:
+
+wd3 D 1
+
+begin
+
+IMAGE:
+
+wd4 6
+
+NOTE:
+
+wd5 D 1
+
+NOTE:
+
+wd6 F 1
+
+NOTE:
+
+wd1 F 1
+
+NOTE:
+
+wd2 A 1
+
+NOTE:
+
+wd3 A 1
+
+NOTE:
+
+wd4 B 1
+
+NOTE:
+
+wd5 G 1
+
+NOTE:
+
+wd6 G 1
+
+NOTE:
+
+wd1 G 1
+
+NOTE:
+
+wd2 B 1
+
+NOTE:
+
+wd3 B 1
+
+NOTE:
+
+wd4 G 1
+
+NOTE:
+
+wd5 G 1
+
+NOTE:
+
+wd6 D 1
+
+NOTE:
+
+wd1 D 1
+
+NOTE:
+
+wd2 D 1
+
+NOTE:
+
+wd3 F 1
+
+NOTE:
+
+wd4 F 1
+
+NOTE:
+
+wd5 A 1
+
+NOTE:
+
+wd6 A 1
+
+NOTE:
+
+wd1 B 1
+
+NOTE:
+
+wd2 G 1
+
+IMAGE:
+
+wd3 6
+
+NOTE:
+
+wd4 G 1
+
+NOTE:
+
+wd5 B 1
+
+NOTE:
+
+wd6 B 1
+
+NOTE:
+
+wd1 G 1
+
+NOTE:
+
+wd2 G 1
+
+NOTE:
+
+wd3 D 1
+
+begin
+
+IMAGE:
+
+wd3 6
+
+NOTE:
+
+wd4 D 1
+
+NOTE:
+
+wd5 F 1
+
+NOTE:
+
+wd6 F 1
+
+NOTE:
+
+wd1 A 1
+
+NOTE:
+
+wd1 A 1
+
+NOTE:
+
+wd2 B 1
+
+NOTE:
+
+wd3 G 1
+
+NOTE:
+
+wd4 G 1
+
+NOTE:
+
+wd5 G 1
+
+NOTE:
+
+wd6 B 1
+
+NOTE:
+
+wd1 B 1
+
+NOTE:
+
+wd2 G 1
+
+NOTE:
+
+wd3 G 1
+
+NOTE:
+
+wd4 D 1
+
+#mad world start
+
+IMAGE:
+
+wd4 15
+
+NOTE:
+
+wd5 F 5
+
+NOTE:
+
+wd6 D 7
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+ball 30
+
+IMAGE:
+
+ball2 30
+
+IMAGE:
+
+d1 10
+
+IMAGE:
+
+d2 10
+
+IMAGE:
+
+d3 10
+
+IMAGE:
+
+d4 10
+
+IMAGE:
+
+d1 10
+
+IMAGE:
+
+d2 10
+
+IMAGE:
+
+d3 10
+
+IMAGE:
+
+d4 10
+
+IMAGE:
+
+d1 10
+
+IMAGE:
+
+d2 10
+
+IMAGE:
+
+d3 10
+
+IMAGE:
+
+d4 10
+
+#begin end
+
+NOTE:
+
+hands2 D 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+IMAGE:
+
+hands 6
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+#begin
+
+IMAGE:
+
+hands2 6
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 D 1
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+IMAGE:
+
+hands 6
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+begin
+
+IMAGE:
+
+hands2 6
+
+NOTE:
+
+hands D 1
+
+NOTE:
+
+hands2 F 1
+
+NOTE:
+
+hands F 1
+
+NOTE:
+
+hands2 A 1
+
+NOTE:
+
+hands A 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands B 1
+
+NOTE:
+
+hands2 B 1
+
+NOTE:
+
+hands G 1
+
+NOTE:
+
+hands2 G 1
+
+NOTE:
+
+hands D 1
+
+#mad world start
+
+IMAGE:
+
+hands2 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+hands 15
+
+NOTE:
+
+hands F 5
+
+NOTE:
+
+hands2 D 7
+
+IMAGE:
+
+wd1 15
+
+NOTE:
+
+wd2 F 5
+
+NOTE:
+
+wd3 D 7
+
+IMAGE:
+
+wd4 15
+
+NOTE:
+
+wd5 F 5
+
+NOTE:
+
+wd6 D 7
+
+IMAGE:
+
+treeg1 0x20
+
+IMAGE:
+
+treeg2 0x20
+
+IMAGE:
+
+treeg3 0x30
+
+END

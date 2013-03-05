@@ -1,0 +1,21 @@
+Tamagotchi Item Maker!
+
+Makes a flash image for a Tamagotchi item from a script. See the sample script as an example.
+
+The first command in the script must be "SOUND MULTIPLIER". This determines how fast or slow notes (sound) plays in your item. I recommend trying it as set, and tweaking the value if audio plays at the wrong speed. Low values are fast and high values are slow.
+
+The second command must be "IMAGE TABLE". This is a list of images used by the item. The first image must be the image with the text name of the item (which is displayed below it in the shop), and the second image must be the picture of the item. After that, anything goes. Images must be 16-colour bitmaps.
+
+After these two commands, "IMAGE" and "NOTE" commands are allowed.
+
+IMAGE commands display an image. The first parameter is the image name (do not include path or extension), and the second parameter is the amount of time the image is to be displayed for.
+
+The NOTE command plays a note. The first parameter is the image to display while playing the note, the second parameter is the note (letter name on a scale, no sharps or flats allowed). The final parameter is the length of the note. I recommend using 1 for the shortest note you need and setting the other values relative to this, and then tweaking the sound multiplier to adjust the length of the note.
+
+To make the flash image, call:
+
+itemmake.py scriptfile outputfile
+
+Questions? Comments? Contributions? 
+
+Contact: natashenka@kwartzlab.ca / @natashenka
