@@ -3,7 +3,9 @@ Figure simulator demos
 facemain.c -- displays a picture 
 nataliemain.c -- displays an animation
 nsdemomain.c -- displays static image
+harlemshake -- makes Tamagotchi do the Harlem Shake (figure image)
+mafd -- makes Tamagotchi play "Mad World" (figure image)
 
 Questions? Comments? Contributions? 
 
-Contact: namely_audacious@hotmail.com / @natashenka
+Contact: natashenka@kwartzlab.ca / @natashenka

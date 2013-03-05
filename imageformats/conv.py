@@ -1,12 +1,11 @@
-f = open("../documents/gagnam.bmp")
-p = f.read()
+
 s = ""
 tmp = 0
 rol = 0
 
 import Image
 
-im = Image.open("../documents/item.bmp")
+im = Image.open("../../../pictures/harlem/title.bmp")
 
 def tofourbit(a):
 	#print a
@@ -51,7 +50,9 @@ while ( i < (width * height) ):
 	#print tmp
 	s = s + chr(tmp)
 	
-f = open("pic.txt", 'wb')
+f = open("pic.txt", 'ab')
+f.write(chr(width))
+f.write(chr(height))
 f.write(s)
 print len(s)
 

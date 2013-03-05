@@ -37,7 +37,7 @@ osun.pop(ops.index("BRK"))
 b.pop(ops.index("BRK"))
 o6502.pop(ops.index("BRK"))
 ops.pop(ops.index("BRK"))
-osun = o6502 #comment out for standard
+#osun = o6502 #comment out for standard
 i = 0
 while(i < len(code)):
 	if (osun.count(ord(code[i])) != 0):

@@ -1,6 +1,6 @@
 import Image
 
-f = open("../ROMDump/makiko", 'rb')
+f = open("C:\\Users\\Natalie\\Downloads\\dumps\\dumps\\cst-007-10-130-violetchi.bin", 'rb')
 
 a = f.read()
 s = ""
@@ -12,7 +12,7 @@ offset = 0
 a = a[offset:]
 
 num = 0
-o =  0xade
+o =  0x1539
 
 while True:
 	width = ord(a[o])
@@ -58,6 +58,6 @@ while True:
         "L"
         )
 	print "img " + str(num) + " at " + str(o)
-	image.save("../ROMDump/m/im-" + str(num) + ".bmp")
+	image.save("../ROMDump/vimages/im-" + str(num) + ".bmp")
 	num = num + 1
 

@@ -3,6 +3,7 @@ Repository for Tamagotchi hacking code!
 Directories:
 
 	/demos/ - Discovery board demos
+	/devtools/ - Tamagotchi development tools
 	/die/ - Photos of the Tamagotchi chip/die
 	/dissasembler/ - GeneralPlus binary dissasembler
 	/figure/ - Dumps and code from Tamagotchi figures
@@ -13,4 +14,4 @@ Directories:
 
 Questions? Comments? Contributions? 
 
-Contact: namely_audacious@hotmail.com / @natashenka
+Contact: natashenka@kwartzlab.ca / @natashenka
