@@ -1,0 +1,333 @@
+                  * = 0000
+0000   78         SEI
+0001   A2 FF      LDX #$FF
+0003   9A         TXS
+0004   A9 FF      LDA #$FF
+0006   8D 04 30   STA $3004 //I have no idea what port this is, but I'm sure setting it to ff is  a great idea
+0009   A9 82      LDA #$82
+000B   8D 01 30   STA $3001 //This is clock control. Gotta keep those clocks under control
+000E   A9 80      LDA #$80
+0010   8D 02 30   STA $3002 // This port controls the 32 k oscillator
+0013   A9 00      LDA #$00
+0015   8D 40 30   STA $3040 //LCD Setup
+0018   A9 03      LDA #$03
+001A   8D 4A 30   STA $304A //Not sure what this does (possible LCD related)
+001D   A9 10      LDA #$10
+001F   8D 11 30   STA $3011 //make p0 out and rest in (weird, p0 is in by startup)
+0022   A9 88      LDA #$88
+0024   8D 10 30   STA $3010 //Port A config
+0027   A9 1F      LDA #$1F
+0029   85 20      STA $20  //wonder what is here?
+002B   8D 12 30   STA $3012 // data
+002E   A9 00      LDA #$00
+0030   8D 13 30   STA $3013 // strobe
+0033   A9 7E      LDA #$7E
+0035   8D 15 30   STA $3015 // possibly io for port b
+0038   A9 01      LDA #$01
+003A   8D 14 30   STA $3014 // possible config for port b
+003D   A9 07      LDA #$07
+003F   85 21      STA $21 // not sure what this is either
+0041   8D 16 30   STA $3016 //port b data?
+0044   A2 00      LDX #$00
+0046   A9 00      LDA #$00
+0048   95 00      STA $00,X
+004A   E8         INX
+004B   D0 FB      BNE $0048 // zero RAM i guess
+004D   A2 00      LDX #$00
+004F   A9 00      LDA #$00
+0051   85 48      STA $48 // more mystery addresses
+0053   A9 01      LDA #$01
+0055   85 49      STA $49 //here too
+0057   A9 00      LDA #$00
+0059   85 4A      STA $4A // and here
+005B   A9 06      LDA #$06
+005D   85 4B      STA $4B // and here
+005F   A5 48      LDA $48
+0061   C5 4A      CMP $4A
+0063   D0 06      BNE $006B
+0065   A5 49      LDA $49
+0067   C5 4B      CMP $4B
+0069   F0 0D      BEQ $0078
+006B   A9 00      LDA #$00
+006D   81 48      STA ($48,X)
+006F   E6 48      INC $48
+0071   D0 02      BNE $0075
+0073   E6 49      INC $49
+0075   4C 5F CC   JMP $CC5F
+0078   A2 00      LDX #$00
+007A   A9 00      LDA #$00
+007C   85 48      STA $48
+007E   A9 10      LDA #$10
+0080   85 49      STA $49
+0082   A9 00      LDA #$00
+0084   85 4A      STA $4A
+0086   A9 12      LDA #$12
+0088   85 4B      STA $4B
+008A   A5 48      LDA $48
+008C   C5 4A      CMP $4A
+008E   D0 06      BNE $0096
+0090   A5 49      LDA $49
+0092   C5 4B      CMP $4B
+0094   F0 0D      BEQ $00A3
+0096   A9 00      LDA #$00
+0098   81 48      STA ($48,X)
+009A   E6 48      INC $48
+009C   D0 02      BNE $00A0
+009E   E6 49      INC $49
+00A0   4C 8A CC   JMP $CC8A
+00A3   A9 10      LDA #$10
+00A5   8D 11 30   STA $3011
+00A8   A9 88      LDA #$88
+00AA   8D 10 30   STA $3010
+00AD   A9 1F      LDA #$1F
+00AF   85 20      STA $20
+00B1   8D 12 30   STA $3012
+00B4   A9 00      LDA #$00
+00B6   8D 13 30   STA $3013
+00B9   A9 7E      LDA #$7E
+00BB   8D 15 30   STA $3015
+00BE   A9 01      LDA #$01
+00C0   8D 14 30   STA $3014
+00C3   A9 07      LDA #$07
+00C5   85 21      STA $21
+00C7   8D 16 30   STA $3016
+00CA   A0 00      LDY #$00
+00CC   20 60 D4   JSR $D460
+00CF   20 60 D4   JSR $D460
+00D2   20 60 D4   JSR $D460
+00D5   20 60 D4   JSR $D460
+00D8   20 60 D4   JSR $D460
+00DB   20 60 D4   JSR $D460
+00DE   20 60 D4   JSR $D460
+00E1   20 60 D4   JSR $D460
+00E4   88         DEY
+00E5   D0 E5      BNE $00CC
+00E7   20 09 E2   JSR $E209
+00EA   C9 07      CMP #$07
+00EC   D0 07      BNE $00F5
+00EE   A9 41      LDA #$41
+00F0   85 22      STA $22
+00F2   4C 94 CD   JMP $CD94
+00F5   A9 0E      LDA #$0E
+00F7   85 3A      STA $3A
+00F9   A9 83      LDA #$83
+00FB   85 26      STA $26
+00FD   A9 B3      LDA #$B3
+00FF   85 00      STA $00
+0101              .END
+0013   A9 00      LDA #$00
+0015   8D 40 30   STA $3040
+0018   A9 03      LDA #$03
+001A   8D 4A 30   STA $304A
+001D   A9 10      LDA #$10
+001F   8D 11 30   STA $3011
+0022   A9 88      LDA #$88
+0024   8D 10 30   STA $3010
+0027   A9 1F      LDA #$1F
+0029   85 20      STA $20
+002B   8D 12 30   STA $3012
+002E   A9 00      LDA #$00
+0030   8D 13 30   STA $3013
+0033   A9 7E      LDA #$7E
+0035   8D 15 30   STA $3015
+0038   A9 01      LDA #$01
+003A   8D 14 30   STA $3014
+003D   A9 07      LDA #$07
+003F   85 21      STA $21
+0041   8D 16 30   STA $3016
+0044   A2 00      LDX #$00
+0046   A9 00      LDA #$00
+0048   95 00      STA $00,X
+004A   E8         INX
+004B   D0 FB      BNE $0048
+004D   A2 00      LDX #$00
+004F   A9 00      LDA #$00
+0051   85 48      STA $48
+0053   A9 01      LDA #$01
+0055   85 49      STA $49
+0057   A9 00      LDA #$00
+0059   85 4A      STA $4A
+005B   A9 06      LDA #$06
+005D   85 4B      STA $4B
+005F   A5 48      LDA $48
+0061   C5 4A      CMP $4A
+0063   D0 06      BNE $006B
+0065   A5 49      LDA $49
+0067   C5 4B      CMP $4B
+0069   F0 0D      BEQ $0078
+006B   A9 00      LDA #$00
+006D   81 48      STA ($48,X)
+006F   E6 48      INC $48
+0071   D0 02      BNE $0075
+0073   E6 49      INC $49
+0075   4C 5F CC   JMP $CC5F
+0078   A2 00      LDX #$00
+007A   A9 00      LDA #$00
+007C   85 48      STA $48
+007E   A9 10      LDA #$10
+0080   85 49      STA $49
+0082   A9 00      LDA #$00
+0084   85 4A      STA $4A
+0086   A9 12      LDA #$12
+0088   85 4B      STA $4B
+008A   A5 48      LDA $48
+008C   C5 4A      CMP $4A
+008E   D0 06      BNE $0096
+0090   A5 49      LDA $49
+0092   C5 4B      CMP $4B
+0094   F0 0D      BEQ $00A3
+0096   A9 00      LDA #$00
+0098   81 48      STA ($48,X)
+009A   E6 48      INC $48
+009C   D0 02      BNE $00A0
+009E   E6 49      INC $49
+00A0   4C 8A CC   JMP $CC8A
+00A3   A9 10      LDA #$10
+00A5   8D 11 30   STA $3011
+00A8   A9 88      LDA #$88
+00AA   8D 10 30   STA $3010
+00AD   A9 1F      LDA #$1F
+00AF   85 20      STA $20
+00B1   8D 12 30   STA $3012
+00B4   A9 00      LDA #$00
+00B6   8D 13 30   STA $3013
+00B9   A9 7E      LDA #$7E
+00BB   8D 15 30   STA $3015
+00BE   A9 01      LDA #$01
+00C0   8D 14 30   STA $3014
+00C3   A9 07      LDA #$07
+00C5   85 21      STA $21
+00C7   8D 16 30   STA $3016
+00CA   A0 00      LDY #$00
+00CC   20 60 D4   JSR $D460
+00CF   20 60 D4   JSR $D460
+00D2   20 60 D4   JSR $D460
+00D5   20 60 D4   JSR $D460
+00D8   20 60 D4   JSR $D460
+00DB   20 60 D4   JSR $D460
+00DE   20 60 D4   JSR $D460
+00E1   20 60 D4   JSR $D460
+00E4   88         DEY
+00E5   D0 E5      BNE $00CC
+00E7   20 09 E2   JSR $E209
+00EA   C9 07      CMP #$07
+00EC   D0 07      BNE $00F5
+00EE   A9 41      LDA #$41
+00F0   85 22      STA $22
+00F2   4C 94 CD   JMP $CD94
+00F5   A9 0E      LDA #$0E
+00F7   85 3A      STA $3A
+00F9   A9 83      LDA #$83
+00FB   85 26      STA $26
+00FD   A9 B3      LDA #$B3
+00FF   85 00      STA $00
+0101              .END
+000E   A9 80      LDA #$80
+0010   8D 02 30   STA $3002
+0013   A9 00      LDA #$00
+0015   8D 40 30   STA $3040
+0018   A9 03      LDA #$03
+001A   8D 4A 30   STA $304A
+001D   A9 10      LDA #$10
+001F   8D 11 30   STA $3011
+0022   A9 88      LDA #$88
+0024   8D 10 30   STA $3010
+0027   A9 1F      LDA #$1F
+0029   85 20      STA $20
+002B   8D 12 30   STA $3012
+002E   A9 00      LDA #$00
+0030   8D 13 30   STA $3013
+0033   A9 7E      LDA #$7E
+0035   8D 15 30   STA $3015
+0038   A9 01      LDA #$01
+003A   8D 14 30   STA $3014
+003D   A9 07      LDA #$07
+003F   85 21      STA $21
+0041   8D 16 30   STA $3016
+0044   A2 00      LDX #$00
+0046   A9 00      LDA #$00
+0048   95 00      STA $00,X
+004A   E8         INX
+004B   D0 FB      BNE $0048
+004D   A2 00      LDX #$00
+004F   A9 00      LDA #$00
+0051   85 48      STA $48
+0053   A9 01      LDA #$01
+0055   85 49      STA $49
+0057   A9 00      LDA #$00
+0059   85 4A      STA $4A
+005B   A9 06      LDA #$06
+005D   85 4B      STA $4B
+005F   A5 48      LDA $48
+0061   C5 4A      CMP $4A
+0063   D0 06      BNE $006B
+0065   A5 49      LDA $49
+0067   C5 4B      CMP $4B
+0069   F0 0D      BEQ $0078
+006B   A9 00      LDA #$00
+006D   81 48      STA ($48,X)
+006F   E6 48      INC $48
+0071   D0 02      BNE $0075
+0073   E6 49      INC $49
+0075   4C 5F CC   JMP $CC5F
+0078   A2 00      LDX #$00
+007A   A9 00      LDA #$00
+007C   85 48      STA $48
+007E   A9 10      LDA #$10
+0080   85 49      STA $49
+0082   A9 00      LDA #$00
+0084   85 4A      STA $4A
+0086   A9 12      LDA #$12
+0088   85 4B      STA $4B
+008A   A5 48      LDA $48
+008C   C5 4A      CMP $4A
+008E   D0 06      BNE $0096
+0090   A5 49      LDA $49
+0092   C5 4B      CMP $4B
+0094   F0 0D      BEQ $00A3
+0096   A9 00      LDA #$00
+0098   81 48      STA ($48,X)
+009A   E6 48      INC $48
+009C   D0 02      BNE $00A0
+009E   E6 49      INC $49
+00A0   4C 8A CC   JMP $CC8A
+00A3   A9 10      LDA #$10
+00A5   8D 11 30   STA $3011
+00A8   A9 88      LDA #$88
+00AA   8D 10 30   STA $3010
+00AD   A9 1F      LDA #$1F
+00AF   85 20      STA $20
+00B1   8D 12 30   STA $3012
+00B4   A9 00      LDA #$00
+00B6   8D 13 30   STA $3013
+00B9   A9 7E      LDA #$7E
+00BB   8D 15 30   STA $3015
+00BE   A9 01      LDA #$01
+00C0   8D 14 30   STA $3014
+00C3   A9 07      LDA #$07
+00C5   85 21      STA $21
+00C7   8D 16 30   STA $3016
+00CA   A0 00      LDY #$00
+00CC   20 60 D4   JSR $D460
+00CF   20 60 D4   JSR $D460
+00D2   20 60 D4   JSR $D460
+00D5   20 60 D4   JSR $D460
+00D8   20 60 D4   JSR $D460
+00DB   20 60 D4   JSR $D460
+00DE   20 60 D4   JSR $D460
+00E1   20 60 D4   JSR $D460
+00E4   88         DEY
+00E5   D0 E5      BNE $00CC
+00E7   20 09 E2   JSR $E209
+00EA   C9 07      CMP #$07
+00EC   D0 07      BNE $00F5
+00EE   A9 41      LDA #$41
+00F0   85 22      STA $22
+00F2   4C 94 CD   JMP $CD94
+00F5   A9 0E      LDA #$0E
+00F7   85 3A      STA $3A
+00F9   A9 83      LDA #$83
+00FB   85 26      STA $26
+00FD   A9 B3      LDA #$B3
+00FF   85 00      STA $00
+0101              .END
