@@ -1,0 +1,23 @@
+Port	Function					Source
+ 
+3000	ROM page					Tamagotchi ROM dump (tested)
+3001	Clock Control					Data sheet
+3002	Osc Control					Application note 16
+3007	Wakeup Control					Application note 16
+3010	Port A Config					Application note 16
+3011	Port A Dir					Application note 16
+3012	Port A Data					Application note 16
+3013	Port A Pull					Application note 16
+3014	Port B Config					Tamagotchi ROM dump
+3015	Port B Dir					Tamagotchi ROM dump
+3016	Port B Data					Tamagotchi ROM dump
+303e	Seg 0-Seg7					Confirmation sheet
+303f	Seg8-seg15					Confirmation sheet
+3040	LCD Setup					Application note 16
+3041	LCD Setup 2					Application note 16
+3042	LCD Clock 1					Application note 16
+3043	LCD Clock 2					Application note 16
+3044	LCD Seg Num					Application note 16
+3045	LCD Com Num					Application note 16
+3047	LCD Buffer Control				Application note 16
+3049	LCD Pump					Application note 16
