@@ -7,6 +7,7 @@ GPTestProgram -- GeneralPlus test program
 images -- Tamagotchi images from ROM
 in.txt -- Code execution POC
 ports.txt -- Known GPLB52640A ports so far. Please contribute
+/rompages -- The pages of the ROM
 
 Questions? Comments? Contributions? 
 

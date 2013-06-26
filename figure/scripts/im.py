@@ -1,6 +1,6 @@
 import Image
 
-f = open("C:\\Users\\Natalie\\Downloads\\dumps\\dumps\\cst-007-10-130-violetchi.bin", 'rb')
+f = open("C:\\Users\\Natalie\\Downloads\\Tamagotchi-Hack-master\\figure\\ROMDump\\makiko", 'rb')
 
 a = f.read()
 s = ""
@@ -58,6 +58,6 @@ while True:
         "L"
         )
 	print "img " + str(num) + " at " + str(o)
-	image.save("../ROMDump/vimages/im-" + str(num) + ".bmp")
+	image.save("../ROMDump/m/im-" + str(num) + ".bmp")
 	num = num + 1
 
