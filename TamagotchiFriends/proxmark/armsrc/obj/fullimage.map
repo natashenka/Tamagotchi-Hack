@@ -1,0 +1,748 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_sqi.o)
+                              obj/hitag2.o (__gnu_thumb1_case_sqi)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uqi.o)
+                              obj/iso15693.o (__gnu_thumb1_case_uqi)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uhi.o)
+                              obj/printf.o (__gnu_thumb1_case_uhi)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+                              obj/hitag2.o (__aeabi_uidiv)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
+                              obj/lfops.o (__aeabi_idiv)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_lshrdi3.o)
+                              obj/hitag2.o (__aeabi_llsr)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_ashldi3.o)
+                              obj/hitag2.o (__aeabi_llsl)
+c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_aeabi_ulcmp.o)
+                              obj/appmain.o (__aeabi_ulcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+password            0x4               obj/hitag2.o
+NrAr                0x8               obj/hitag2.o
+BigBuf              0x9c40            obj/start.o
+ToSend              0x200             obj/appmain.o
+timer               0x4               obj/legicrf.o
+timestamp           0x4               obj/legicrf.o
+cipher_state        0x8               obj/hitag2.o
+bSuccessful         0x1               obj/hitag2.o
+bPwd                0x1               obj/hitag2.o
+prng_timer          0x4               obj/legicrf.o
+blocknr             0x4               obj/hitag2.o
+forwardLink_data    0x40              obj/lfops.o
+bCrypto             0x1               obj/hitag2.o
+fwd_write_ptr       0x4               obj/lfops.o
+lfsr                0x8               obj/legic_prng.o
+forward_ptr         0x4               obj/lfops.o
+key                 0x8               obj/hitag2.o
+fwd_bit_sz          0x1               obj/lfops.o
+bAuthenticating     0x1               obj/hitag2.o
+csrTab              0x190             obj/usb_cdc.o
+ToSendMax           0x4               obj/appmain.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/version.o
+ .data          0x00000000        0x0 obj/version.o
+ .bss           0x00000000        0x0 obj/version.o
+ .text          0x00000000        0x0 obj/start.o
+ .data          0x00000000        0x0 obj/start.o
+ .bss           0x00000000        0x0 obj/start.o
+ .data          0x00000000        0x0 obj/iso15693.o
+ .data          0x00000000        0x0 obj/iso15693tools.o
+ .data          0x00000000        0x0 obj/lfops.o
+ .bss           0x00000000        0x4 obj/lfops.o
+ .data          0x00000000        0x0 obj/appmain.o
+ .data          0x00000000        0x0 obj/printf.o
+ .bss           0x00000000        0x0 obj/printf.o
+ .data          0x00000000        0x0 obj/util.o
+ .data          0x00000000        0x0 obj/string.o
+ .bss           0x00000000        0x0 obj/string.o
+ COMMON         0x00000000      0x190 obj/usb_cdc.o
+ .data          0x00000000        0x0 obj/cmd.o
+ .bss           0x00000000        0x0 obj/cmd.o
+ .data          0x00000000        0x0 obj/fpgaloader.o
+ .data          0x00000000        0x0 obj/legicrf.o
+ .data          0x00000000        0x0 obj/iso14443crc.o
+ .bss           0x00000000        0x0 obj/iso14443crc.o
+ .data          0x00000000        0x0 obj/crc16.o
+ .bss           0x00000000        0x0 obj/crc16.o
+ .data          0x00000000        0x0 obj/epa.o
+ .bss           0x00000000        0x0 obj/epa.o
+ .bss           0x00000000        0x0 obj/mifareutil.o
+ .data          0x00000000        0x0 obj/mifarecmd.o
+ .bss           0x00000000        0x0 obj/mifarecmd.o
+ .data          0x00000000        0x0 obj/mifaresniff.o
+ .data          0x00000000        0x0 obj/iso14443.o
+ .text          0x00000000      0xfd0 obj/crapto1.o
+ .data          0x00000000        0x0 obj/crapto1.o
+ .bss           0x00000000   0x100004 obj/crapto1.o
+ .text.startup  0x00000000       0xb0 obj/crapto1.o
+ .init_array    0x00000000        0x4 obj/crapto1.o
+ .rodata        0x00000000      0x1f0 obj/crapto1.o
+ .comment       0x00000000       0x71 obj/crapto1.o
+ .ARM.attributes
+                0x00000000       0x30 obj/crapto1.o
+ .data          0x00000000        0x0 obj/crypto1.o
+ .bss           0x00000000        0x0 obj/crypto1.o
+ .data          0x00000000        0x0 obj/legic_prng.o
+ .bss           0x00000000        0x0 obj/legic_prng.o
+ .data          0x00000000        0x0 obj/iclass.o
+ .data          0x00000000        0x0 obj/crc.o
+ .bss           0x00000000        0x0 obj/crc.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_sqi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_sqi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uhi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_ashldi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_ashldi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_aeabi_ulcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_aeabi_ulcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bootphase1       0x00100000         0x00000200
+bootphase2       0x00100200         0x00001e00
+fpgaimage        0x00102000         0x0000e000
+osimage          0x00110000         0x00030000
+ram              0x00200000         0x0000ffe0
+commonarea       0x0020ffe0         0x00000020
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x001001fc                _bootphase1_version_pointer = ((ORIGIN (bootphase1) + 0x200) - 0x4)
+                0x00110000                _osimage_entry = ORIGIN (osimage)
+                0x00100000                _bootrom_start = ORIGIN (bootphase1)
+                0x00102000                _bootrom_end = (ORIGIN (bootphase2) + 0x1e00)
+                0x00100000                _flash_start = ORIGIN (bootphase1)
+                0x00140000                _flash_end = (ORIGIN (osimage) + 0x30000)
+                0x0020ffd8                _stack_end = ((ORIGIN (ram) + 0xffe0) - 0x8)
+
+.fpgaimage      0x00102000     0xa4bc
+ *(fpga_bit.data)
+ fpga_bit.data  0x00102000     0xa4bc obj/fpga.o
+                0x00102000                _binary_fpga_bit_start
+                0x0010c4bc                _binary_fpga_bit_end
+
+.start          0x00110000       0x44
+ *(.startos)
+ .startos       0x00110000       0x44 obj/start.o
+                0x00110000                Vector
+
+.text           0x00110048    0x10890
+ *(.text)
+ .text          0x00110048      0xe98 obj/iso15693.o
+                0x001103ec                AcquireRawAdcSamplesIso15693
+                0x001104c4                RecordRawAdcSamplesIso15693
+                0x0011056c                Iso15693InitReader
+                0x001105bc                SendDataTag
+                0x00110700                DbdecodeIso15693Answer
+                0x00110820                SetDebugIso15693
+                0x0011084c                ReaderIso15693
+                0x00110a64                SimTagIso15693
+                0x00110d7c                BruteforceIso15693Afi
+                0x00110e38                DirectTag15693Command
+ .text          0x00110ee0       0x9c obj/iso15693tools.o
+                0x00110ee0                Iso15693Crc
+                0x00110f20                Iso15693AddCrc
+                0x00110f3a                Iso15693sprintUID
+ *fill*         0x00110f7c        0x4 
+ .text          0x00110f80     0x1a00 obj/lfops.o
+                0x001110a8                DoAcquisition125k
+                0x00111124                ModThenAcquireRawAdcSamples125k
+                0x001111ec                WriteTIbyte
+                0x00111244                AcquireTiType
+                0x00111308                AcquireRawAdcSamples125k
+                0x0011132a                ReadTItag
+                0x001114ac                WriteTItag
+                0x001115b8                SimulateTagLowFrequency
+                0x0011166c                SimulateTagLowFrequencyBidir
+                0x0011166e                CmdHIDsimTAG
+                0x00111788                CmdHIDdemodFSK
+                0x00111ab4                T55xxWriteBit
+                0x00111ae2                T55xxWriteBlock
+                0x00111b7e                T55xxReadBlock
+                0x00111c50                T55xxReadTrace
+                0x00111cf0                CopyHIDtoT55x7
+                0x00111ef8                WriteEM410x
+                0x001120c4                CopyIndala64toT55x7
+                0x00112100                CopyIndala224toT55x7
+                0x0011217c                DemodPCF7931
+                0x00112318                IsBlock0PCF7931
+                0x00112368                IsBlock1PCF7931
+                0x00112398                ReadPCF7931
+                0x001126b8                Prepare_Cmd
+                0x00112700                Prepare_Addr
+                0x00112738                Prepare_Data
+                0x001127b0                SendForward
+                0x00112848                EM4xLogin
+                0x00112884                EM4xReadWord
+                0x00112918                EM4xWriteWord
+ .text          0x00112980     0x1f40 obj/hitag2.o
+                0x00112c84                LogTraceHitag
+                0x00112d64                hitag2_reset
+                0x00112d74                hitag2_init
+                0x00112d82                hitag2_handle_reader_command
+                0x001135cc                hitag2_password
+                0x001136c8                hitag2_crypto
+                0x00113d78                hitag2_authenticate
+                0x00113e00                hitag2_test_auth_attempts
+                0x00113f1c                SnoopHitag
+                0x001141c8                SimulateHitagTag
+                0x00114434                ReaderHitag
+ .text          0x001148c0     0x1c00 obj/appmain.o
+                0x001148ec                ToSendReset
+                0x00114904                DbpString
+                0x00114926                ToSendStuffBit
+                0x00114990                Dbprintf
+                0x001149b4                BufferClear
+                0x001149dc                Dbhexdump
+                0x00114a5c                AvgAdc
+                0x00114a7c                MeasureAntennaTuning
+                0x00114b84                MeasureAntennaTuningHf
+                0x00114bd4                SimulateTagHfListen
+                0x00114c44                ReadMem
+                0x00114c74                SendVersion
+                0x00114ce8                SamyRun
+                0x00114e7c                ListenReaderField
+                0x00115068                UsbPacketReceived
+                0x001163d0                AppMain
+ .text          0x001164c0      0x720 obj/printf.o
+                0x001164c0                kvsprintf
+                0x00116bac                vsprintf
+                0x00116bc2                sprintf
+ .text          0x00116be0      0x414 obj/util.o
+                0x00116be0                nbytes
+                0x00116bee                SwapBits
+                0x00116c14                num_to_bytes
+                0x00116c2c                bytes_to_num
+                0x00116c50                LEDsoff
+                0x00116c6c                BUTTON_CLICKED
+                0x00116d24                BUTTON_HELD
+                0x00116dac                SpinDelayUs
+                0x00116e00                SpinDelay
+                0x00116e12                LED
+                0x00116e8c                FormatVersionInformation
+                0x00116f34                StartTickCount
+                0x00116f44                StartCountUS
+                0x00116f90                StartCountMifare
+ .text          0x00116ff4      0x12c obj/string.o
+                0x00116ff4                memcpy
+                0x0011700c                memset
+                0x00117024                memcmp
+                0x00117048                strlen
+                0x0011705a                strncat
+                0x00117088                strcat
+                0x001170ae                strreverse
+                0x001170d4                itoa
+ .text          0x00117120      0x544 obj/usb_cdc.o
+                0x00117190                usb_disable
+                0x001171b4                usb_enable
+                0x00117208                AT91F_USB_SendZlp
+                0x00117226                AT91F_USB_SendStall
+                0x00117246                AT91F_CDC_Enumerate
+                0x001174c8                usb_check
+                0x0011751c                usb_poll
+                0x00117540                usb_read
+                0x001175b4                usb_write
+ .text          0x00117664       0x9c obj/cmd.o
+                0x00117664                cmd_receive
+                0x0011768c                cmd_send
+ .text          0x00117700      0x624 obj/fpgaloader.o
+                0x00117944                SetupSpi
+                0x001179c8                FpgaSetupSsc
+                0x00117a20                FpgaSetupSscDma
+                0x00117a50                bitparse_find_section
+                0x00117af0                FpgaDownloadAndGo
+                0x00117ba8                FpgaGatherVersion
+                0x00117ca8                FpgaSendCommand
+                0x00117ce0                FpgaWriteConfWord
+                0x00117cec                SetAdcMuxFor
+ .text          0x00117d24     0x1088 obj/legicrf.o
+                0x00118644                legic_read_byte
+                0x001186fc                legic_write_byte
+                0x00118864                LegicRfReader
+                0x001189e4                LegicRfWriter
+                0x00118b64                LegicRfSimulate
+ .text          0x00118dac       0xd4 obj/iso14443crc.o
+                0x00118dac                ComputeCrc14443
+                0x00118e18                CheckCrc14443
+ .text          0x00118e80       0x40 obj/crc16.o
+                0x00118e80                update_crc16
+ .text          0x00118ec0      0x518 obj/epa.o
+                0x00118ec0                EPA_Finish
+                0x00118f10                EPA_Parse_CardAccess
+                0x00119058                EPA_Read_CardAccess
+                0x0011910c                EPA_PACE_Get_Nonce
+                0x001191b4                EPA_PACE_MSE_Set_AT
+                0x00119274                EPA_Setup
+                0x001192e4                EPA_PACE_Collect_Nonce
+ .text          0x001193d8     0x2a30 obj/iso14443a.o
+                0x0011976c                iso14a_set_trigger
+                0x0011977c                iso14a_clear_trace
+                0x001197b4                iso14a_set_tracing
+                0x001197c4                iso14a_set_timeout
+                0x001197d4                oddparity
+                0x001197e4                GetParity
+                0x00119844                AppendCrc14443a
+                0x0011987c                CodeIso14443aBitsAsReaderPar
+                0x001199d4                CodeIso14443aAsReaderPar
+                0x001199dc                EmSend4bitEx
+                0x00119b1c                EmSend4bit
+                0x00119b24                EmSendCmdExPar
+                0x00119bbc                EmSendCmdEx
+                0x00119be8                SimulateIso14443aTag
+                0x0011a3e8                EmSendCmd
+                0x0011a410                EmSendCmdPar
+                0x0011a41c                ReaderTransmitBitsPar
+                0x0011a4c8                ReaderTransmitPar
+                0x0011a4d0                ReaderTransmit
+                0x0011a4f4                ReaderReceive
+                0x0011a580                ReaderReceivePar
+                0x0011a618                iso14443a_select_card
+                0x0011a87c                iso14443a_setup
+                0x0011a8d4                iso14_apdu
+                0x0011a990                ReaderIso14443a
+                0x0011ab38                PrepareDelayedAuthTransfer
+                0x0011abe8                dist_nt
+                0x0011ac6c                ReaderMifare
+                0x0011b1b8                Mifare1ksim
+ .text          0x0011be08      0xcc8 obj/mifareutil.o
+                0x0011bea0                mifare_get_bigbufptr
+                0x0011beac                eml_get_bigbufptr_sendbuf
+                0x0011beb8                eml_get_bigbufptr_recbuf
+                0x0011bec4                eml_get_bigbufptr_cardmem
+                0x0011bed0                mf_crypto1_decrypt
+                0x0011bf5c                mf_crypto1_encrypt
+                0x0011bffc                mf_crypto1_encrypt4bit
+                0x0011c04c                mifare_sendcmd_shortex
+                0x0011c1bc                mifare_sendcmd_short
+                0x0011c1e0                mifare_classic_authex
+                0x0011c49c                mifare_classic_auth
+                0x0011c4d8                mifare_classic_readblock
+                0x0011c5f0                mifare_classic_writeblock
+                0x0011c788                mifare_classic_halt
+                0x0011c7e4                emlSetMem
+                0x0011c80c                emlGetMem
+                0x0011c82c                emlGetMemBt
+                0x0011c848                emlCheckValBl
+                0x0011c928                emlGetValBl
+                0x0011c97c                emlSetValBl
+                0x0011ca00                emlGetKey
+                0x0011ca44                emlClearMem
+ .text          0x0011cad0     0x1988 obj/mifarecmd.o
+                0x0011cad0                MifareReadBlock
+                0x0011ccb8                MifareReadSector
+                0x0011cf70                MifareWriteBlock
+                0x0011d158                valid_nonce
+                0x0011d220                MifareNested
+                0x0011d960                MifareChkKeys
+                0x0011daf0                MifareSetDbgLvl
+                0x0011db18                MifareEMemClr
+                0x0011db28                MifareEMemSet
+                0x0011db48                MifareEMemGet
+                0x0011dba8                MifareECardLoad
+                0x0011dee0                MifareCSetBlock
+                0x0011e244                MifareCGetBlock
+ .text          0x0011e458      0x168 obj/mifaresniff.o
+                0x0011e458                MfSniffInit
+                0x0011e4a0                MfSniffEnd
+                0x0011e4e4                intMfSniffSend
+ .text          0x0011e5c0      0xdb8 obj/iso14443.o
+                0x0011ea54                SimulateIso14443Tag
+                0x0011ee54                CodeIso14443bAsReader
+                0x0011ef30                AcquireRawAdcSamplesIso14443
+                0x0011efac                ReadSTMemoryIso14443
+                0x0011f368                ReadSRI512Iso14443
+                0x0011f370                ReadSRIX4KIso14443
+ .text          0x0011f378      0x2e8 obj/crypto1.o
+                0x0011f378                crypto1_create
+                0x0011f3ec                crypto1_destroy
+                0x0011f3fc                crypto1_get_lfsr
+                0x0011f454                crypto1_bit
+                0x0011f570                crypto1_byte
+                0x0011f5bc                crypto1_word
+                0x0011f608                prng_successor
+ .text          0x0011f660       0xd4 obj/legic_prng.o
+                0x0011f660                legic_prng_init
+                0x0011f688                legic_prng_forward
+                0x0011f6e8                legic_prng_count
+                0x0011f6f8                legic_prng_get_bit
+ .text          0x0011f734      0xb9c obj/iclass.o
+                0x0011f824                rotateCSN
+                0x0011f85c                SimulateIClass
+                0x0011fdd8                CodeIClassCommand
+                0x0011feb8                ReaderTransmitIClass
+                0x00120024                ReaderReceiveIClass
+                0x00120124                ReaderIClass
+ .text          0x001202d0       0x8c obj/crc.o
+                0x001202d0                crc_update
+                0x00120314                crc_clear
+                0x00120328                crc_init
+                0x00120344                crc_finish
+ .text          0x0012035c       0x14 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_sqi.o)
+                0x0012035c                __gnu_thumb1_case_sqi
+ .text          0x00120370       0x14 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uqi.o)
+                0x00120370                __gnu_thumb1_case_uqi
+ .text          0x00120384       0x14 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uhi.o)
+                0x00120384                __gnu_thumb1_case_uhi
+ .text          0x00120398      0x114 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+                0x00120398                __aeabi_uidiv
+                0x00120398                __udivsi3
+                0x0012048c                __aeabi_uidivmod
+ .text          0x001204ac      0x148 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
+                0x001204ac                __divsi3
+                0x001204ac                __aeabi_idiv
+                0x001205d4                __aeabi_idivmod
+ .text          0x001205f4        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_dvmd_tls.o)
+                0x001205f4                __aeabi_idiv0
+                0x001205f4                __aeabi_ldiv0
+ .text          0x001205f8       0x1c c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_lshrdi3.o)
+                0x001205f8                __lshrdi3
+                0x001205f8                __aeabi_llsr
+ .text          0x00120614       0x1c c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_ashldi3.o)
+                0x00120614                __aeabi_llsl
+                0x00120614                __ashldi3
+ .text          0x00120630       0x24 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_aeabi_ulcmp.o)
+                0x00120630                __aeabi_ulcmp
+ *fill*         0x00120654        0x4 
+ .text.__stub   0x00120658      0x234 linker stubs
+ *(.text.*)
+ *(.eh_frame)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x001208d8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x001208d8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x001208d8        0x0
+ .iplt          0x00000000        0x0 obj/start.o
+
+.rodata         0x001208d8     0x1ecd
+ *(.rodata)
+ .rodata        0x001208d8      0x280 obj/iso15693.o
+ .rodata        0x00120b58       0x22 obj/lfops.o
+ .rodata        0x00120b7a        0x8 obj/appmain.o
+ .rodata        0x00120b82       0x25 obj/printf.o
+                0x00120b82                hex2ascii_data
+ .rodata        0x00120ba7       0x6f obj/usb_cdc.o
+                0x00120ba7                devDescriptor
+                0x00120bb9                cfgDescriptor
+                0x00120bfc                strDescriptor
+ .rodata        0x00120c16        0xd obj/fpgaloader.o
+ .rodata        0x00120c23       0x24 obj/epa.o
+ .rodata        0x00120c47      0x118 obj/iso14443a.o
+                0x00120c47                OddByteParity
+ .rodata        0x00120d5f       0x20 obj/mifareutil.o
+ .rodata        0x00120d7f       0x1c obj/iso14443.o
+ .rodata        0x00120d9b        0xa obj/iclass.o
+ *(.rodata.*)
+ .rodata.str1.1
+                0x00120da5      0x26c obj/iso15693.o
+                                0x274 (size before relaxing)
+ .rodata.str1.1
+                0x00000000      0x26c obj/iso15693tools.o
+                                 0x29 (size before relaxing)
+ .rodata.str1.1
+                0x00121011      0x30d obj/lfops.o
+                                0x35d (size before relaxing)
+ .rodata.str1.1
+                0x0012131e      0x2e9 obj/hitag2.o
+ .rodata.str1.1
+                0x00121607      0x28b obj/appmain.o
+                                0x2a2 (size before relaxing)
+ .rodata.str1.1
+                0x00121892       0x13 obj/printf.o
+ .rodata.str1.1
+                0x001218a5       0x7b obj/util.o
+                                 0x7d (size before relaxing)
+ .rodata.str1.1
+                0x00121920       0x50 obj/fpgaloader.o
+ .rodata.str1.1
+                0x00121970      0x2fe obj/legicrf.o
+                                0x306 (size before relaxing)
+ .rodata.str1.1
+                0x00121c6e      0x35e obj/iso14443a.o
+                                0x372 (size before relaxing)
+ .rodata.str1.1
+                0x00121fcc       0xfd obj/mifareutil.o
+ .rodata.str1.1
+                0x001220c9      0x26a obj/mifarecmd.o
+                                0x294 (size before relaxing)
+ .rodata.str1.1
+                0x00122333        0x8 obj/mifaresniff.o
+ .rodata.str1.1
+                0x0012233b      0x366 obj/iso14443.o
+                                0x379 (size before relaxing)
+ .rodata.str1.1
+                0x001226a1       0xd6 obj/iclass.o
+                                0x146 (size before relaxing)
+ *(.version_information)
+ .version_information
+                0x00122777       0x2e obj/version.o
+                0x00122777                version_information
+
+.rel.dyn        0x001227a8        0x0
+ .rel.iplt      0x00000000        0x0 obj/start.o
+                0x001227a8                . = ALIGN (0x4)
+
+.data           0x00200000     0x2a38 load address 0x001227a5
+ *(.data)
+ .data          0x00200000       0x50 obj/hitag2.o
+                0x00200048                auth_table_len
+                0x0020004c                auth_table
+ .data          0x00200050       0x10 obj/usb_cdc.o
+                0x00200050                pUdp
+                0x00200054                line
+                0x0020005c                btReceiveBank
+ .data          0x00200060       0x20 obj/iso14443a.o
+                0x00200060                trace
+                0x00200064                tracing
+ .data          0x00200080        0x4 obj/mifareutil.o
+                0x00200080                MF_DBGLEVEL
+ *(.data.*)
+ *(.ramfunc)
+ .ramfunc       0x00200084       0x70 obj/util.o
+                0x00200084                GetTickCount
+                0x00200090                GetCountUS
+                0x002000b8                GetDeltaCountUS
+                0x002000d4                GetCountMifare
+ .ramfunc       0x002000f4      0xe3c obj/iso14443a.o
+                0x00200814                LogTrace
+                0x00200978                SnoopIso14443a
+                0x00200c5c                SniffMifare
+ .ramfunc       0x00200f30      0x438 obj/mifaresniff.o
+                0x00200f30                MfSniffLogic
+                0x00201318                MfSniffSend
+ .ramfunc       0x00201368      0x828 obj/iso14443.o
+                0x0020168c                SnoopIso14443
+ .ramfunc       0x00201b90      0xe50 obj/iclass.o
+                0x00202464                SnoopIClass
+ .ramfunc.__stub
+                0x002029e0       0x44 linker stubs
+                0x00202a24                . = ALIGN (0x4)
+                0x001227a5                __data_src_start__ = LOADADDR (.data)
+                0x00200000                __data_start__ = ADDR (.data)
+                0x00202a38                __data_end__ = (__data_start__ + SIZEOF (.data))
+
+.igot.plt       0x00202a38        0x0 load address 0x001251dd
+ .igot.plt      0x00000000        0x0 obj/start.o
+
+.bss            0x00202a38     0xa0ac
+                0x00202a38                __bss_start__ = .
+ *(.bss)
+ .bss           0x00202a38        0x4 obj/iso15693.o
+                0x00202a38                DEBUG
+ .bss           0x00202a3c       0x11 obj/iso15693tools.o
+ *fill*         0x00202a4d        0x3 
+ .bss           0x00202a50        0x8 obj/hitag2.o
+                0x00202a50                auth_table_pos
+ .bss           0x00202a58        0x4 obj/appmain.o
+ .bss           0x00202a5c        0x4 obj/util.o
+ .bss           0x00202a60        0x3 obj/usb_cdc.o
+                0x00202a60                btConfiguration
+                0x00202a61                btConnection
+                0x00202a62                csrIdx
+ *fill*         0x00202a63        0x1 
+ .bss           0x00202a64        0xc obj/fpgaloader.o
+ .bss           0x00202a70       0x3c obj/legicrf.o
+ .bss           0x00202aac       0x88 obj/iso14443a.o
+                0x00202b0c                trigger
+                0x00202b14                traceLen
+                0x00202b18                rsamples
+ .bss           0x00202b34       0x24 obj/mifaresniff.o
+ .bss           0x00202b58       0x44 obj/iso14443.o
+ .bss           0x00202b9c       0x78 obj/iclass.o
+ *(.bss.*)
+                0x00202c14                . = ALIGN (0x4)
+                0x00202c14                __bss_end__ = .
+ COMMON         0x00202c14     0x9c40 obj/start.o
+                0x00202c14                BigBuf
+ COMMON         0x0020c854       0x49 obj/lfops.o
+                0x0020c854                forwardLink_data
+                0x0020c894                fwd_write_ptr
+                0x0020c898                forward_ptr
+                0x0020c89c                fwd_bit_sz
+ *fill*         0x0020c89d        0x3 
+ COMMON         0x0020c8a0       0x2a obj/hitag2.o
+                0x0020c8a0                password
+                0x0020c8a4                NrAr
+                0x0020c8b0                cipher_state
+                0x0020c8b8                bSuccessful
+                0x0020c8b9                bPwd
+                0x0020c8bc                blocknr
+                0x0020c8c0                bCrypto
+                0x0020c8c1                key
+                0x0020c8c9                bAuthenticating
+ *fill*         0x0020c8ca        0x2 
+ COMMON         0x0020c8cc      0x204 obj/appmain.o
+                0x0020c8cc                ToSend
+                0x0020cacc                ToSendMax
+ COMMON         0x0020cad0        0xc obj/legicrf.o
+                0x0020cad0                timer
+                0x0020cad4                timestamp
+                0x0020cad8                prng_timer
+ COMMON         0x0020cadc        0x8 obj/legic_prng.o
+                0x0020cadc                lfsr
+
+.commonarea     0x0020ffe0        0xf
+ *(.commonarea)
+ .commonarea    0x0020ffe0        0xf obj/appmain.o
+                0x0020ffe0                common_area
+LOAD obj/version.o
+LOAD obj/fpga.o
+LOAD obj/start.o
+LOAD obj/iso15693.o
+LOAD obj/iso15693tools.o
+LOAD obj/lfops.o
+LOAD obj/hitag2.o
+LOAD obj/appmain.o
+LOAD obj/printf.o
+LOAD obj/util.o
+LOAD obj/string.o
+LOAD obj/usb_cdc.o
+LOAD obj/cmd.o
+LOAD obj/fpgaloader.o
+LOAD obj/legicrf.o
+LOAD obj/iso14443crc.o
+LOAD obj/crc16.o
+LOAD obj/epa.o
+LOAD obj/iso14443a.o
+LOAD obj/mifareutil.o
+LOAD obj/mifarecmd.o
+LOAD obj/mifaresniff.o
+LOAD obj/iso14443.o
+LOAD obj/crapto1.o
+LOAD obj/crypto1.o
+LOAD obj/legic_prng.o
+LOAD obj/iclass.o
+LOAD obj/crc.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a
+OUTPUT(obj/fullimage.elf elf32-littlearm)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 obj/version.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 obj/start.o
+ .comment       0x00000000       0x71 obj/iso15693.o
+ .comment       0x00000000       0x71 obj/iso15693tools.o
+ .comment       0x00000000       0x71 obj/lfops.o
+ .comment       0x00000000       0x71 obj/hitag2.o
+ .comment       0x00000000       0x71 obj/appmain.o
+ .comment       0x00000000       0x71 obj/printf.o
+ .comment       0x00000000       0x71 obj/util.o
+ .comment       0x00000000       0x71 obj/string.o
+ .comment       0x00000000       0x71 obj/usb_cdc.o
+ .comment       0x00000000       0x71 obj/cmd.o
+ .comment       0x00000000       0x71 obj/fpgaloader.o
+ .comment       0x00000000       0x71 obj/legicrf.o
+ .comment       0x00000000       0x71 obj/iso14443crc.o
+ .comment       0x00000000       0x71 obj/crc16.o
+ .comment       0x00000000       0x71 obj/epa.o
+ .comment       0x00000000       0x71 obj/iso14443a.o
+ .comment       0x00000000       0x71 obj/mifareutil.o
+ .comment       0x00000000       0x71 obj/mifarecmd.o
+ .comment       0x00000000       0x71 obj/mifaresniff.o
+ .comment       0x00000000       0x71 obj/iso14443.o
+ .comment       0x00000000       0x71 obj/crypto1.o
+ .comment       0x00000000       0x71 obj/legic_prng.o
+ .comment       0x00000000       0x71 obj/iclass.o
+ .comment       0x00000000       0x71 obj/crc.o
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x30 obj/version.o
+ .ARM.attributes
+                0x00000030       0x30 obj/start.o
+ .ARM.attributes
+                0x00000060       0x30 obj/iso15693.o
+ .ARM.attributes
+                0x00000090       0x30 obj/iso15693tools.o
+ .ARM.attributes
+                0x000000c0       0x30 obj/lfops.o
+ .ARM.attributes
+                0x000000f0       0x30 obj/hitag2.o
+ .ARM.attributes
+                0x00000120       0x30 obj/appmain.o
+ .ARM.attributes
+                0x00000150       0x30 obj/printf.o
+ .ARM.attributes
+                0x00000180       0x30 obj/util.o
+ .ARM.attributes
+                0x000001b0       0x30 obj/string.o
+ .ARM.attributes
+                0x000001e0       0x30 obj/usb_cdc.o
+ .ARM.attributes
+                0x00000210       0x30 obj/cmd.o
+ .ARM.attributes
+                0x00000240       0x30 obj/fpgaloader.o
+ .ARM.attributes
+                0x00000270       0x30 obj/legicrf.o
+ .ARM.attributes
+                0x000002a0       0x30 obj/iso14443crc.o
+ .ARM.attributes
+                0x000002d0       0x30 obj/crc16.o
+ .ARM.attributes
+                0x00000300       0x30 obj/epa.o
+ .ARM.attributes
+                0x00000330       0x30 obj/iso14443a.o
+ .ARM.attributes
+                0x00000360       0x30 obj/mifareutil.o
+ .ARM.attributes
+                0x00000390       0x30 obj/mifarecmd.o
+ .ARM.attributes
+                0x000003c0       0x30 obj/mifaresniff.o
+ .ARM.attributes
+                0x000003f0       0x30 obj/iso14443.o
+ .ARM.attributes
+                0x00000420       0x30 obj/crypto1.o
+ .ARM.attributes
+                0x00000450       0x30 obj/legic_prng.o
+ .ARM.attributes
+                0x00000480       0x30 obj/iclass.o
+ .ARM.attributes
+                0x000004b0       0x30 obj/crc.o
+ .ARM.attributes
+                0x000004e0       0x16 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_sqi.o)
+ .ARM.attributes
+                0x000004f6       0x16 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000050c       0x16 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x00000522       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000053a       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000552       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000056a       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000582       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x0000059a       0x18 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_aeabi_ulcmp.o)
+
+.debug_frame    0x00000000       0x40
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3\libgcc.a(_divsi3.o)
