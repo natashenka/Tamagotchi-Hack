@@ -1,0 +1,7 @@
+violetchi	/home/natashenka/Documents/violetchi_tama.bmp
+check		/home/natashenka/Documents/check.bmp
+ximg		/home/natashenka/Documents/x.bmp
+pressa		/home/natashenka/Documents/pressa.bmp
+pressb		/home/natashenka/Documents/pressb.bmp
+pressc		/home/natashenka/Documents/pressc.bmp
+

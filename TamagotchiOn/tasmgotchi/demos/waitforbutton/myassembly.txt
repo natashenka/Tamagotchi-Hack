@@ -1,0 +1,120 @@
+PUSH            {R4-R8,LR}
+SUB             SP, SP, #0x20
+MOV             R0, #9
+LDR             R3, =(set_image_mode+1)
+MOV             LR, PC
+BX              R3      ;
+MOV             R5, #0x40 ; '@'
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+LDR             R1, =violetchi
+MOV             R0, R2
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+LDR             R1, =pressa
+MOV             R0, #1
+MOV             R5, #0x40 ; '@'
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+MOV             R1, #1
+MOV             R0, #0x1000
+LDR             R3, =(wait_for_button+1)
+MOV             LR, PC
+BX              R3      ; sub_20000932
+MOV		R7, R0
+CMP             R0, #1
+MOV             LR, PC
+BEQ             pass
+CMP             R7, #1
+MOV             LR, PC
+BNE		lose
+MOV             R5, #0x40 ; '@'
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+MOV             R0, #1
+LDR             R1, =pressb
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+MOV             R1, #2
+MOV             R0, #0x1000
+LDR             R3, =(wait_for_button+1)
+MOV             LR, PC
+BX              R3      ; sub_20000932
+MOV		R7, R0
+CMP             R0, #1
+MOV             LR, PC
+BEQ             pass
+CMP             R7, #1
+MOV             LR, PC
+BNE		lose
+MOV             R5, #0x40 ; '@'
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+MOV             R0, #1
+LDR             R1, =pressc
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+MOV             R1, #4
+MOV             R0, #0x1000
+LDR             R3, =(wait_for_button+1)
+MOV             LR, PC
+BX              R3      ; sub_20000932
+MOV		R7, R0
+CMP             R0, #1
+MOV             LR, PC
+BEQ             pass
+CMP             R7, #1
+MOV             LR, PC
+BNE		lose
+B		end
+lose:
+PUSH            {R4-R8,LR} 
+MOV             R5, #0x40
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+LDR             R1, =ximg
+MOV             R0, #1
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+MOV             R1, #7
+MOV             R0, #0x300
+LDR             R3, =(wait_for_button+1)
+MOV             LR, PC
+BX              R3      ; sub_20000932   
+POP             {R4-R8,LR}
+BX              LR
+pass:
+PUSH            {R4-R8,LR}
+MOV             R5, #0x40
+STR             R5, [SP]
+MOV             R3, R5
+MOV             R2, #0
+LDR             R1, =check
+MOV             R0, #1
+LDR             R4, =(show_game_image+1)
+MOV             LR, PC
+BX              R4      ; show_game_image
+MOV             R1, #7
+MOV             R0, #0x500
+LDR             R3, =(wait_for_button+1)
+MOV             LR, PC
+BX              R3      ; sub_20000932   
+POP             {R4-R8,LR}
+BX              LR
+end:    
+ADD             SP, SP, #0x20 ;
+POP             {R4-R8,LR}
+MOV		R0, #3
+BX              LR
